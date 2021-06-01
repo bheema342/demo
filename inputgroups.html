@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>input groups</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<form action="">
+	<div class="input-group mb-2">
+	<div class="input-group-pretend">
+	<span class="input-group-text">@example</span>
+</div>
+	<input type="text" name="fname"class="form-control"placeholder="Fname">
+	<input type="text" name="lname"class="form-control"placeholder="enter your Lname">
+	</div>
+<div class="input-group">
+<input type="text" name="text"class="form-control"placeholder="my name is bheema">
+<input type="text" name="text"class="form-control"placeholder="hobies">
+<div class="input-group-append mb-2">
+<span class="input-group-text">bheema</span>	
+</div>
+</div>
+<button type="submit"class="btn btn-danger">submit</button>
+</form>
+<div class="container">
+	<form action="">
+	<div class="input-group">
+	<div class="input-group-append">
+	<div class="input-group-text">
+	<input type="checkbox">	
+	</div>	
+	</div>
+	<input type="text"class="form-control"placeholder="bheema">	
+</div>
+<div class="input-group">
+	<div class="input-group-append">
+	<button class="btn btn-danger dropdown-toggle"data-toggle="dropdown">smartphones</button>
+	<div class="dropdown-menu">
+	<a href="#"class="dropdown-item">honour</a>	
+	<a href="#"class="dropdown-item">nokia</a>	
+	<a href="#"class="dropdown-item">samsung</a>	
+	<a href="#"class="dropdown-item">sony</a>	
+	</div>	
+	<div class="input-group-text">
+	<input type="radio">	
+	</div>	
+	</div>
+	<input type="text"class="form-control"placeholder="bheema">	
+	<button class="btn btn-secondary" type=button>basic</button>
+	<button class="btn btn-primary" type=button>clear</button>
+	<button class="btn btn-warning" type=button>ok</button>
+</div>
+</form>	
+<div class="container">
+	<h2>labels</h2>
+<label for="bheema">first name</label>
+<div class="input-group">
+	<input type="text" name="name"class="form-control"id="bheema"placeholder="enter your name">
+	<div class="input-group-append">
+		<span class="input-group-text">bheema</span>
+	</div>
+</div>
+</body>
+</html>

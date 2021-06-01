@@ -1,0 +1,177 @@
+*{margin:0;}
+		.container{
+		display:flex;  
+			width:100%;
+			height:50px;  
+		}
+		.logo{
+			width:5%;
+			height:25px;
+		}
+		.logo img{
+			width:100%;
+			height:50px;  
+		}
+		.menu{
+			width:45%;
+			height:25px;
+			margin-top:10px;  
+		}
+		.header{
+			width:50%;
+			height:25px;   
+		}
+		ul{
+			list-style-type:none; 
+		}
+li{display:inline;
+	padding:5px;  
+}
+.banner { 
+	width:100%;
+	height:350px;  
+	background-image:url("house.jpg");
+	background-size:cover;   
+}
+.text{text-align: center;}
+.text p{
+margin-bottom:150px; }
+.bheema{
+	display:flex;
+	width:100%;
+	height:300px;
+	background-color:white; 
+} 
+.one{width:30%;
+	height:100px;
+margin-left:50px;
+} 
+.one img{
+	width:100%;
+	height:100px;
+	margin:50px; 
+}
+.two{width:30%;
+	height:100px;
+margin-right:50px; }
+.two img{
+	width:100%;
+	height:100px;
+	margin:50px;
+}
+.three{
+	width:40%;
+	height:200px;
+	margin-right:150px;
+	margin:20px; }
+ .three h2{ text-align:center;  }
+
+.raghava{
+display:flex;
+	width:100%;
+	height:400px;
+	background-color:white; 
+}
+.four{width:50%;
+	height:200px;
+	margin:20px;   
+}
+.four p{padding:2px; 
+	border-bottom:1px solid grey;}
+} 
+.five{width:50%;
+	height:200px; 
+} 
+.five img{
+	width:100%;
+	height:390px;
+	margin-right:150px; 
+}
+.suri{
+	display:flex; 
+	width:100%;
+	height:330px; 
+	background-color:orange;   
+}
+.suri text h3{
+	width:10%;
+	height:30px;
+	text-align:right;    
+}
+.suri a{
+	width:25%;
+	height:100px;
+	margin:5px;
+} 
+ .a img{
+	width:100%;
+	height:200px;
+	margin-top:100px;
+} 
+.suri b{
+	width:25%;
+	height:100px;
+	margin:5px;
+}
+ .b img{
+	width:100%;
+	height:200px;
+	margin-top:100px;
+}
+.suri .c{
+	width:25%;
+	height:100px;
+	margin:5px;
+} 
+
+ .c img{
+	width:100%;
+	height:200px;
+	margin-top:100px;  
+} 
+.naveen{
+	display:flex; 
+	width:100%;
+	height:400px;
+	background-color:green;   
+} 
+.six{
+	width:100%;
+	height:150px;
+	margin:20px;
+}  
+.six img{
+	width:100%;
+	height:300px; 
+} 
+.seven{
+	width:100%;
+	height:300px; 
+	margin:20px; 
+	background-color:grey;
+}
+.eight img{
+	width:100%;
+	height:30px;  
+}
+.nine img{
+	width:100%;
+	height:30px;  
+}
+.ten img{
+	width:100%;
+	height:30px;  
+}
+.container-fluid{
+	width:100%;
+	height:500px;  
+}
+.container-fluid h2{
+	text-align:center;
+	color:black;
+	padding:40px;  
+}
+.container-fluid .card{
+	background-color:orange;
+	text-align:center;  
+}

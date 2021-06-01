@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>userform</title>
+	 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <style type="text/css">
+    .container{
+      width:300px;
+      height:520px;
+    }
+  	.aa{
+      height:550px;
+      width: 400px;
+    }
+  	
+ </style>
+</head>
+<body>
+
+ <form action="/action_page.php" method="post">
+ <div class="container-fluid mt-5 bg-success aa">
+  <div class="row">
+<div class="container mt-3 bg-warning">
+<h2>Form Validation</h2>
+<div class="row">
+<div class="col-md-12"> 
+<label>Fname</label>
+<input type="text" name="Fname" required class="form-control" placeholder="fname">
+<label>Lname</label>
+<input type="text" name="Fname" required class="form-control"focus>
+<label>Email</label>
+<input type="Email" name="Email"required class="form-control">
+<label>phone number</label>
+<input type="phonenumber" name="number" required class="form-control">
+<label>favourite food</label>
+<input type="text" name="food" required class="form-control">
+<label>favourite crickter</label>
+<input type="text" name="kohli" required class="form-control">
+<label>
+  <div class="col-md-12">
+<input type="checkbox" name="text" class="form-check-input">I agree</label>
+<br>
+</div>
+<input type="submit" name="submit"value="submit">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+
+
+
+
+</body>
+</html>

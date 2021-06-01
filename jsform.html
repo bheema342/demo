@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+<!--<form action="/action_page.php" method="post">
+<div class="container">	
+<div class="row">
+<div class="col-md-12">	
+<label>Fname</label>
+<input type="text" name="Fname" required class="form-control" placeholder="fname">
+<label>Lname</label>
+<input type="text" name="Fname" required class="form-control"focus>
+<label>Email</label>
+<input type="Email" name="Email"required class="form-control">
+<label>phone number</label>
+<input type="phonenumber" name="number" required class="form-control">
+<label>favourite food</label>
+<input type="text" name="food" required class="form-control">
+<label>favourite crickter</label>
+<input type="text" name="kohli" required class="form-control">
+<input type="submit" name="submit"value="submit">
+
+</div>
+</div>
+</div>
+</form>--->
+
+
+ <form action="/action_page.php" method="post">
+ <div class="container-fluid mt-5 bg-success aa">
+  <div class="row">
+<div class="container mt-3 bg-warning">
+<h2>Form Validation</h2>	
+<div class="row">
+<div class="col-md-12">	
+<label>First Name</label>
+<input type="text" name="Fname" class="form-control"placeholder="enter the fname">
+<label>Last Name</label>
+<input type="text" name="text" class="form-control"placeholder="enter the Lname">
+<label>Email Id</label>
+<input type="Email Id" name="text" class="form-control"placeholder="enter the Email Id:">	
+<label>Contact Number </label>
+<input type="Phone Number" name="text" class="form-control"placeholder="enter the Contact Number">
+<label>
+  <div class="col-md-12">
+<input type="checkbox" name="text" class="form-check-input">I agree</label>
+<br>
+</div>
+<span class="btn btn-primary"  required="">Submit</span>
+
+
+
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+
+<!--<input id="one">
+<button type="button"onclick="my()">click here!</button>
+<p id="two"></p>
+<script type="text/javascript">
+	function my(){
+		var x,text;
+		x=document.getElementById("one").max;
+        if((x)||x<1||x>10){
+        	text="input  not invalid";
+        }else{
+        	text="input ok";
+        }
+document.getElementById("two").innerHTML=text;
+}
+
+
+</script>
+</form>--->
+
+<!--<input id="bheema"type="number"min="100" max="300" required>
+<button onclick="deva()">ok</button>
+<p id="hello"></p>
+
+
+<script type="text/javascript">
+	function deva(){
+		var x=document.getElementById("bheema");
+		if(x.checkValidity()){
+			document.getElementById("hello").innerHTML = x.validationMessage;
+  } else {
+    document.getElementById("hello").innerHTML = "Input OK";
+}
+</script>--->
+<!--<script type="text/javascript">
+function focusevent()
+{
+	document.getElementById("demo").style.background="red";
+}
+</script>-->
+<!--<script type="text/javascript">
+	function clickevent()
+	{
+		document.write("this is java");
+	}
+</script>
+<form>
+<button type="button" onclick="clickevent()">click here!</button>
+</form>-->
+<!---<script type="text/javascript">
+	function bheema(){
+		alert("hello world");
+	}
+	function bheema(){
+		confirm("hello java");
+	}
+	function bheema(){
+		prompt("hello java");
+	}
+
+</script>
+<h3>prompt example</h3>
+<h1>alert example</h1>
+<h2>confirm example</h2>
+<button type="button" onclick="bheema()">click here!</button>--->
+
+
+
+
+
+<!--<script type="text/javascript">
+	function w(){
+		window.open("http://training.javatpoint.com/");
+	}
+</script>
+<button type="button" onclick="w()">hello!</button>-->
+
+
+
+
+
+
+
+<!--<script type="text/javascript">  
+function msg(){  
+setTimeout(  
+function(){  
+alert("Welcome to Javatpoint after 0 seconds")  
+},2000);  
+  
+}  
+</script>-->
+  
+<input type="button" value="click" onclick="msg()"/> 
+
+<!--<script type="text/javascript">
+	var a;
+	a=window.innerHeight;
+	var b;
+	b=window.innerWidth;
+	console.log(a,b);
+
+</script>-->
+
+<!--<script type="text/javascript">
+	var a;
+	a=window.outerHeight;
+	var b;
+	b=window.outerWidth;
+	console.log(a,b);
+
+</script>-->
+<button onclick="bheema()">Normal!</button>
+<button onclick="mbr()">resize!</button>
+<script>
+	var window;
+function bheema(){
+	window=window.open("","","width=100,height=100");
+}
+function mbr() {
+window.resizeTo(150,150);
+}
+</script>
+</body>
+</html>

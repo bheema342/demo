@@ -1,0 +1,42 @@
+<style>
+	.header {
+		background-color: black;
+	}
+	.header h2 {
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+	.menu {
+		float: left;
+		text-align: center;
+        width: 20%;
+    }
+     .links{
+    	  background-color:lightgrey;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+
+
+  color:green
+  }
+  .content h3
+  {
+  	color: red;
+  }
+
+  .about{
+  	text-align: center;
+  	float: right;
+  	width: 20%;
+  }
+
+  .footer {
+  	background-color:#e5e5e5;
+  	text-align:center;
+  	padding:10px;
+  	margin-top:7px;"
+  }
+  </style>

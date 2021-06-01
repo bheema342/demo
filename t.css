@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+}
+
+.both{
+	height: 200px;
+	width: 100%;
+	background-color: green;
+	display: flex;
+}
+.one{
+	height: 200px;
+	width: 100%;
+	flex: 6;
+	background-color: yellow;
+
+}
+.one img{
+	height: 200px;
+	width: 100%;
+}
+.two{
+	height: 200px;
+	width: 100%;
+	flex: 6;
+	background-color:blue;	
+}
+.two img{
+	height:200px;
+	width:100%;  
+}
+.both1{
+	height: 200px;
+	width: 100%;
+	background-color: green;
+	display: flex;
+}
+.one1{
+	height: 200px;
+	width: 100%;
+	flex: 6;
+	background-color: yellow;
+
+}
+.one1 img{
+	height: 200px;
+	width: 100%;
+}
+.two2{
+	height: 200px;
+	width: 100%;
+	flex: 6;
+	background-color:blue;	
+}
+.two2 img{
+	height:200px;
+	width:100%;  

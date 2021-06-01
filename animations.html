@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animations</title>
+	<style>
+		.rag{
+		width:400px;
+		height:200px;
+		animation-name:bheema;
+		animation-duration:4s;    
+	}
+@keyframes bheema{
+from {background-color:red;}
+to{background-color: yellow;}
+}
+.raghava{
+	width:100px;
+	height:200px;
+	position:relative; 
+	background-color:red;
+	animation-name:chotu;
+	animation-duration:4s;
+	animation-delay:2s;
+	animation-iteration-count: 5;       
+}
+@keyframes chotu{
+	 0% {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.reverse{
+	width:200px;
+	height:400px;
+	animation-name:kiran
+	position:relative;
+	animation-delay: 2s;
+	animation-duration:4s; 
+animation-direction:reverse;
+}
+@keyframes kiran{
+ 
+	</style>
+</head>
+<body>
+<div class="rag">
+	<h2>animations</h2>
+</div>
+<rag></rag>
+<p>bheema</p>
+<div class="raghava">
+<h4>rotation of animations</h4>
+</div>
+<raghava></raghava>
+<div class="reverse">
+	<h1>reverse animation</h1>
+</div>
+</body>
+</html>

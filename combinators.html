@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> combinators</title>
+	<style>
+.one p{
+	background-color:red;
+}
+.two > p{
+	background-color:orange; 
+}
+.three +p{
+	background-color:pink; 
+}
+.dropdown-content{
+	display:none;
+	position:relative;
+	background-color:blue;   
+}
+.dropdown:hover .dropdown-content{
+	display:block; 
+}
+.dropbtn{
+	background-color:pink;
+	color:white;
+	padding:5px;  
+}
+.dropdown{
+	position:relative;
+	display:inline;  
+}
+.dropdown-content{
+	display:none;
+	position:absolute;  
+}
+.dropdown-content a{
+	color:white;
+	text-decoration:none;
+	display:block;  
+}
+.dropdown-content a:hover .dropdown-content{
+	display:none; 
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:yellow;
+}
+
+
+	</style>
+
+</head>
+<body>
+<div class="one">
+	<p>kohli is a crickter</p>
+	<p> my bheema</p>
+	</div>
+<div class="two">
+	<p> bheema</p>
+<p>naveen</p>
+<section>suri</section>
+<p>deva</p>
+</div>
+<div class="three">
+<p>raju</p></div>
+<p>sreenu</p>	
+
+<div class="dropdown">
+	<span>mouse over me</span>
+	<div class="dropdown-content">
+	<p> hello world</p>	
+	</div>
+<div class="bheema" style="float:left;">
+<button class="dropbtn">left</button>
+<div class="dropdown-content">
+<a href="#">link1</a> 
+<a href="#">link2</a>
+<a href="#">link3</a>	
+</div>	
+</div>
+<div class="rag" style="float:right;">
+<button class="dropbtn">right</button>
+<a href="#">link1</a>
+<a href="#">link2</a>
+<a href="#">link3</a>
+</div>	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice</title>
+</head>
+<body>
+
+<p id="one">Welcome to Heftysoft.</p>
+<button type="button" onclick='document.getElementById("one").style.color="green";innerHTML = "hello world!"'>Click Me!</button>
+
+
+<p id="two">welcome to banglore</p>
+<button type="button" onclick="document.getElementById('two').style.display='none'">click me</button>
+
+
+<p id="three" style="display:none">hello world</p>
+<button type="button" onclick="document.getElementById('three').style.display='block'">click me</button>
+
+
+<h2>javascript in body</h2>
+<p id="four">hello heftysoft</p>
+<p id="four1">hello world</p>
+<p id="four2">hello java</p>
+<button type="button" onclick="myfunction()">try it</button>
+<script>
+function myfunction() {	
+document.getElementById('four').innerHTML="my world is flying"
+document.getElementById('four1').innerHTML="A bird is flying"
+document.getElementById('four2').innerHTML="flying"
+}	</script>
+
+
+<p id="five"></p>
+<script>
+document.getElementById('five').innerHTML= 5+20
+document.write(30*3)
+window.alert(20-40)
+</script>
+  <button onclick="window.print()">Print the page</button>
+
+
+<h2>variables</h2>
+<p id="demo"></p>
+<script>
+var x,y,z;
+x =9;
+y =87;
+z =x+y;
+document.getElementById('demo').innerHTML="the value of z is "+ z +"";	
+</script>
+
+<p id="seven"></p>
+<script>
+var lastname,lastName;
+lastName = "bheema"; lastname = "reddy";document.getElementById('seven').innerHTML= lastName;
+</script>
+
+<p id="0"></p>
+<script>
+	var price1=10;
+	var price2=30;
+	var total=price1 + price2;
+	document.getElementById('0').innerHTML="the total is:"+total;
+</script>
+<p id="eight"></p>
+<script>
+	var x= 5;
+	var y=15;
+	var z=x+y;
+	document.getElementById('eight').innerHTML=z;
+</script>
+<p id="nine"></p>
+<script>
+	var z= 100;
+	var y= 80;
+	var x=z-y;
+	document.getElementById('nine').innerHTML=x;
+</script>
+<p id="ten"></p>
+<script>
+	var x=30;
+	var y=5;
+	var z=x*y;
+	document.getElementById('ten').innerHTML=z;
+</script>
+<p id="11"></p>
+<script>
+	var x=10;
+	x +=20;
+	document.getElementById('11').innerHTML=x;
+</script>
+<p id="12"></p>
+<script>
+	var z=20;
+	z *=5;
+	document.getElementById('12').innerHTML=z;
+</script>
+<p id="13"></p>
+<script>
+var y=10;
+y -=20;
+document.getElementById('13').innerHTML=y;
+</script>
+<div class="one">
+<button onclick="document.getElementById('myImage').src='bulb2.gif'" style="width:100px">Turn on</button>
+
+<img id="myImage" src="normal bulb.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='normal bulb.jpg'">Turn off</button>
+</div>
+</body>
+</html>

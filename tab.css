@@ -1,0 +1,15 @@
+table th,td{
+	border: 2px solid red;
+	cellspacing:10px;
+	paddig:20px; 
+	width:100px;
+	height:100px; 
+}
+table th{
+	border:5px solid yellow;
+	color: red;
+	}
+table tr{
+	color:yellow;
+}
+	

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>responsive</title>
+	<style>
+		*{margin:0px;}
+		.container{
+			display:flex; 
+			width:100%;
+			height:100px;
+		    }
+		.logo{
+			width:20%;
+			height:50px;   
+		}
+		.logo img{
+			width:100%;
+			height:100px;  
+		}
+		.header{
+			width:80%;
+			height:100px;
+			background-color:yellow;  
+		}
+		@media only screen and (max-width:475px) {
+			.container{
+			display:flex; 
+			width:100%;
+			height:100px;
+		    }
+		.logo{
+			width:20%;
+			height:50px;   
+		}
+		.logo img{
+			width:100%;
+			height:100px;  
+		}
+		.header{
+    	width:80%;
+    	height:100px;
+    	background-color:pink;
+    }
+}
+    
+    ul{
+    	list-style-type:none; 
+    }
+		li{
+			display:inline;
+			padding:10px;  
+		}
+		.menu{
+			background-color:green;
+			width:100%;
+			height:200px;
+			background-size:cover;
+		}
+	
+@media only screen and (max-width:375px) {
+    .menu{
+    	width: 100%;
+    	height: 200px;
+    	background-color: red;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="logo">
+	<img src="bulb.jfif">
+</div>
+<div class="header">
+	<ul>
+	<li>home</li>
+	<li>about</li>
+	<li>service</li>
+	<li>contact</li>	
+	</ul>
+</div>	
+</div>
+<div class="menu">
+</div>
+</body>
+</html>

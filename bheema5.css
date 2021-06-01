@@ -1,0 +1,32 @@
+<style>
+.nav{
+			height: 30px;
+			width: 1350px;
+			background-color: blue;
+		}
+		.both{
+			height: 300px;
+			width: 1350px;
+			display: flex;
+			background-color: yellow;
+		}
+		.content{
+			flex: 3;
+			height: 300px;
+			width:670px;
+			background-color: red;
+			}
+			.side{
+				flex: 3;
+					height: 300px;
+			width:670px;
+			background-color:yellow;
+
+			}
+		}
+		body{
+			background-color: green;
+			height: 500px;
+			width: 300px;
+		}
+</style>		

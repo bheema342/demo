@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> transitions</title>
+	<style>
+	#one{
+		width:400px;
+		height:250px;
+		background-color:blue;
+		transition:width 2s;height:4s;
+		transition-delay:2s;     
+	}
+	#one:hover{
+		width: 600px;
+		height:400px;
+	}
+	#one{transition-timing-function: linear;}
+	#one{transition-timing-function: ease;}
+	#one{transition-timing-function: ease-in;}
+	#one{transition-timing-function: ease-out;}
+	#one{transition-timing-function: ease-in-out;}
+	#bheema{
+		width:100px;
+		height:200px;
+		background-color:pink;
+		transition:width 2s,height 3s,transform 4s;   
+	}
+	#bheema:hover{
+		width:250px;
+		height:350px;
+		transform:rotate(180deg);  
+	}
+
+			</style>
+</head>
+<body>
+<h1>transition element</h1>	
+<div id="one">
+	</div>
+	<p>hello</p>
+<div id="one">linear</div><br>
+<div id="one">ease</div><br> 
+<div id="one">ease-in</div><br>
+<div id="one">ease-out</div><br>
+<div id="bheema"></div>
+<p>hello world</p>	
+</body>
+</html>

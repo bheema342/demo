@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1> it is a javascript</h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML=Date()">
+click me to display date and time</button>
+<p id="demo"></p>
+<div>
+<script>
+document.getElementById('demo').innerHTML="hello world";
+</script>
+</div>
+<div class="one">       
+ <p> java script can change html elements:</p>
+<button type="button"onclick="myfunction()">click me</button>
+<p id="one">it is a java script</p>
+<script>
+function myfunction(){
+document.getElementById("one").innerHTML="bheema";
+ document.getElementById("one").style.fontSize = "25px"; 
+  document.getElementById("one").style.color = "red";
+  document.getElementById("one").style.backgroundColor = "yellow";        
+ }
+</script>
+</div>
+<div>
+<h3>it is a java script</h3>
+<p>attribute value of imges</p>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "gif.gif"
+  } else {
+    pic = "gif.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="gif.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="bulb(1)">bulb On</button>
+<button type="button" onclick="bulb(0)">bulb Off</button>
+</p>
+
+</body>
+</html>
+
+
+
+
+
+

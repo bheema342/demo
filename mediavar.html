@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,intial-scale=1">
+	<title>using mediaquery</title>
+	<style>
+:root{
+	--blue: #1e90ff;
+  --white: #ffffff; 
+}
+.raghava{
+	--font-size:20px; 
+}
+body {
+  background-color: var(--blue);
+}
+
+h3 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.raghava{
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+  font-size: var(--fontsize);
+}
+@media screen and (min-width: 450px) {
+  .container {
+    --fontsize: 50px;
+  }
+
+	</style>
+</head>
+<body>
+<div class="raghava">
+	<h3>media query</h3>
+<p>Daring, tough and fiercely talented, Virat Kohli is arguably one of the finest batsmen that the country has produced. He has even drawn comparisons with the great Sachin Tendulkar. With a firm bottom-hand grip and the ability to smash balls landing on a particular area to any part of the ground at will and without much risk.</p>
+	
+</div>	
+
+
+</body>
+</html>
